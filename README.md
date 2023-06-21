@@ -28,32 +28,32 @@ To address the challenges mentioned above, various data analytics techniques can
 
 Data Collection and Preprocessing:
 
-Accurate bike demand prediction relies on the availability of high-quality data. Data collection involves gathering information on bike rentals, including timestamps, rental duration, and locations. Rental bike systems often provide access to such data through APIs or database connections. This data, along with relevant contextual information such as weather data, events calendars, and geographic data, forms the basis for analysis.
+- Accurate bike demand prediction relies on the availability of high-quality data. Data collection involves gathering information on bike rentals, including timestamps, rental duration, and locations. Rental bike systems often provide access to such data through APIs or database connections. This data, along with relevant contextual information such as weather data, events calendars, and geographic data, forms the basis for analysis.
 
-Data preprocessing is a critical step that ensures the quality and compatibility of the collected data. It involves cleaning the data, handling missing values, detecting and handling outliers, and formatting the data for analysis. Data normalization may also be applied to standardize variables and facilitate model training and comparison.
+- Data preprocessing is a critical step that ensures the quality and compatibility of the collected data. It involves cleaning the data, handling missing values, detecting and handling outliers, and formatting the data for analysis. Data normalization may also be applied to standardize variables and facilitate model training and comparison.
 
 Feature Engineering:
 
-Feature engineering involves extracting meaningful features from the collected data that can contribute to predicting bike demand. These features can include temporal features (hour of the day, day of the week, month), weather-related features (temperature, precipitation, etc.), holiday indicators, and event indicators. Domain knowledge and exploratory data analysis can help identify relevant features that influence bike demand patterns.
+- Feature engineering involves extracting meaningful features from the collected data that can contribute to predicting bike demand. These features can include temporal features (hour of the day, day of the week, month), weather-related features (temperature, precipitation, etc.), holiday indicators, and event indicators. Domain knowledge and exploratory data analysis can help identify relevant features that influence bike demand patterns.
 
 Model Development, Training, and Validation:
 
-Once the data is preprocessed and features are extracted, the next step is to develop prediction models. This typically involves splitting the data into training and validation sets. The training set is used to train the prediction models, while the validation set is used to evaluate their performance.
+- Once the data is preprocessed and features are extracted, the next step is to develop prediction models. This typically involves splitting the data into training and validation sets. The training set is used to train the prediction models, while the validation set is used to evaluate their performance.
 
-Different models can be explored, including traditional statistical models (e.g., ARIMA), regression models, decision trees, ensemble methods, and neural networks. The choice of the model depends on the specific requirements and characteristics of the bike demand data.
+- Different models can be explored, including traditional statistical models (e.g., ARIMA), regression models, decision trees, ensemble methods, and neural networks. The choice of the model depends on the specific requirements and characteristics of the bike demand data.
 
-During model training, hyperparameters (e.g., learning rate, and regularization parameters) are tuned to optimize the model's performance. Cross-validation techniques, such as k-fold cross-validation, can be employed to assess model performance and avoid overfitting.
+- During model training, hyperparameters (e.g., learning rate, and regularization parameters) are tuned to optimize the model's performance. Cross-validation techniques, such as k-fold cross-validation, can be employed to assess model performance and avoid overfitting.
 
 Evaluation and Model Selection:
 
-Model evaluation is crucial to ensure the reliability and accuracy of the bike demand prediction models. Various evaluation metrics, such as mean squared error (MSE), root mean squared error (RMSE), mean absolute error (MAE), and coefficient of determination (R-squared), can be used to assess the models' performance. These metrics provide insights into how well the models capture the actual demand patterns and their predictive capabilities.
+- Model evaluation is crucial to ensure the reliability and accuracy of the bike demand prediction models. Various evaluation metrics, such as mean squared error (MSE), root mean squared error (RMSE), mean absolute error (MAE), and coefficient of determination (R-squared), can be used to assess the models' performance. These metrics provide insights into how well the models capture the actual demand patterns and their predictive capabilities.
 
-Based on the evaluation results, the most suitable model can be selected for deployment. The selected model should exhibit good performance in terms of accuracy, robustness, and computational efficiency.
+- Based on the evaluation results, the most suitable model can be selected for deployment. The selected model should exhibit good performance in terms of accuracy, robustness, and computational efficiency.
 
 Prediction and Deployment:
 
-Once the model is trained and validated, it can be used to make predictions on new, unseen data. These predictions provide estimations of the required bike count for each hour, enabling rental bike services to manage their inventory effectively and optimize their operations. The predictions can be visualized and communicated through dashboards or integrated into the rental bike system's infrastructure to facilitate real-time decision-making.
+- Once the model is trained and validated, it can be used to make predictions on new, unseen data. These predictions provide estimations of the required bike count for each hour, enabling rental bike services to manage their inventory effectively and optimize their operations. The predictions can be visualized and communicated through dashboards or integrated into the rental bike system's infrastructure to facilitate real-time decision-making.
 
 Continuous Improvement and Monitoring:
 
-The predictive models should be continuously monitored and refined as new data becomes available. This allows for model updates and enhancements to adapt to evolving bike demand patterns and changes in the urban environment. Continuous improvement may involve retraining the models periodically, incorporating new features, or exploring advanced techniques to further enhance accuracy.
+- The predictive models should be continuously monitored and refined as new data becomes available. This allows for model updates and enhancements to adapt to evolving bike demand patterns and changes in the urban environment. Continuous improvement may involve retraining the models periodically, incorporating new features, or exploring advanced techniques to further enhance accuracy.
